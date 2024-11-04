@@ -11,7 +11,7 @@ import { FilesModule } from './files/files.module';
  
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb+srv://puranikprashant3:Password123@cluster0.1b6ha.mongodb.net/prashant?retryWrites=true&w=majority&appName=Cluster0'),
+    MongooseModule.forRoot(''), ,//add mongoDB URL
     UsersModule,
     FilesModule,
     ProductsModule,
